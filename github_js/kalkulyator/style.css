@@ -1,0 +1,157 @@
+body {
+    margin:0;
+    padding: 0;
+}
+
+.join{
+    animation: joinUsAnimation 0.50s infinite alternate;
+  }
+  
+  @keyframes joinUsAnimation {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(15px);
+    }
+  }
+  
+
+  
+.container {
+    margin-top: 20px;
+    border: 2px solid;
+    border-radius: 10px;
+    float: left;
+    margin-left: 600px;
+    width: 450px;
+    height: 680px;
+    background-color: #000000;
+    
+}
+
+.link{
+    text-decoration: none;
+    background-color: #fc0f0f;
+    float: left;
+    margin-top: 30px;
+    margin-left: 40px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.link2{
+    text-decoration: none;
+    background-color: #597ef8;
+    float: left;
+    margin-top: 100px;
+    /* margin-left: 20px; */
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.link {
+    animation: joinUsAnimation 0.50s infinite alternate;
+  }
+  
+  @keyframes joinUsAnimation {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(15px);
+    }
+}
+
+
+.link2 {
+    animation: joinUsAnimation 0.50s infinite alternate;
+  }
+  
+  @keyframes joinUsAnimation {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(15px);
+    }
+}
+  
+
+
+.link a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+
+.link2 a {
+    text-decoration: none;
+    color: #000000;
+}
+
+  
+.btn {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
+.btn button {
+    font-size: 40px;
+    width: 100px;
+    height: 100px;
+    background-color: #313131;
+    border: none;
+    border-radius: 50px;
+    padding: 5px;
+    color: #fff;
+}
+  
+
+#input {
+    width: 445px;
+    height: 145px;
+    font-size: 40px;
+    border: none;
+    outline: none;
+    background-color: #000000;
+    color: #fff;
+    text-align: right;
+}
+
+#plus {
+    background-color: #F69906;
+}
+#minus {
+    background-color: #F69906;
+}
+#kop {
+    background-color: #F69906;
+}
+#bol {
+    background-color: #F69906;
+}
+
+#equal {
+    background-color: #F69906; 
+}
+#ac {
+    background-color: #9F9F9F;
+}
+#del {
+    background-color: #9F9F9F;
+}
+#sqrt {
+    background-color: #9F9F9F;
+}
+#foiz {
+    background-color: #9F9F9F;
+}
+
+form {
+    text-align: right;
+}
+
+
